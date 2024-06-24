@@ -1,0 +1,256 @@
+body {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.freeeze {
+    font-size: 48px;
+    padding: 0px 10px;
+    color: #e94e77;
+    padding-left: 1rem;
+}
+
+.highlight {
+    color: rgb(84, 230, 0);
+}
+
+.logo {
+    background-color: #ebebeb;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header.logo h1 {
+    color: #e94e77;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding-right: 20px;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 150px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e94e77;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("background2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.main-image-container {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.main-image {
+    width: 115%;
+    height: auto;
+}
+
+.small-image {
+    position: absolute;
+    bottom: 16px;
+    left: 450px;
+    width: 25%;
+    height: auto;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 55px;
+    left: 485px;
+    color: white;
+    background-color: rgba(236, 29, 174, 0.4);
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: larger;
+    z-index: 1;
+}
+
+.freeze-text {
+    display: block;
+}
+
+.delight-text {
+    display: block;
+}
+
+.product {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    background-color: rgb(212, 211, 211);
+}
+
+.About {
+    padding-left: 50px;
+}
+
+.Us {
+    padding-left: 700px;
+    padding-right: 50px;
+}
+
+.free {
+    display: block;
+}
+
+.no-wrapping {
+    white-space: nowrap;
+}
+
+.h2 {
+    font-weight: lighter
+}
+a:hover{
+    color: #e94e77;
+    }
+    
+    span.free:hover {
+        color: #E24BC5;
+    }
+    .navigationbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #b4c329;
+        padding: 10px 0;
+    }
+    .nav{
+        text-align: center;
+        flex: 1;
+        /* margin: 10px 10px; */
+    }
+    .icon{
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 10px auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .products{
+    background-image: url("la1-removebg-preview.png");
+    background-size: 100% 100%;
+    
+    }
+    .story{
+        background-image: url("la2-removebg-preview.png");
+        background-size: 100% 100%;
+    }
+    .flavors{
+        background-image: url("la3-removebg-preview.png");
+        background-size: 100% 100%;
+    }
+    .location{
+        background-image: url("la4-removebg-preview.png");
+        background-size: 100% 100%;
+    }
+    .nav a{
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .nav:hover{
+        text-decoration: underline;
+    }
+
+.lights-wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.lights-wave span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    animation: wave 1.5s linear infinite;
+    animation-delay: calc(var(--i) * -0.1s); 
+}
+
+
+.lights-wave span:nth-child(1n) {
+    background-color: #FF0000; 
+}
+.lights-wave span:nth-child(2n) {
+    background-color: #FF7F00; 
+}
+.lights-wave span:nth-child(3n) {
+    background-color: #FFFF00; 
+}
+.lights-wave span:nth-child(4n) {
+    background-color: #00FF00; 
+}
+.lights-wave span:nth-child(5n) {
+    background-color: #0000FF; 
+}
+.lights-wave span:nth-child(6n) {
+    background-color: #4B0082; 
+}
+.lights-wave span:nth-child(7n) {
+    background-color: #9400D3;
+}
+
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
